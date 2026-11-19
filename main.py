@@ -379,7 +379,7 @@ with aba5:
         ["Empresa 2420", "Global"],
         horizontal=True
     )
-    df_pais_ativo = resumo_empresa_paises if escopo_pais == "Company2420" else resumo_paises_geral
+    df_pais_ativo = resumo_empresa_paises if escopo_pais == "Empresa 2420" else resumo_paises_geral
 
     min_amostra = st.slider(
         "Filtrar países com quantidade mínima de feedbacks (evita distorção de países com 1 resposta):",
